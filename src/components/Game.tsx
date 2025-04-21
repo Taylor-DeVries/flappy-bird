@@ -176,16 +176,16 @@ export const Game: React.FC<GameProps> = ({ difficulty }) => {
           <p className="xl:text-md lg:text-md text-sm animate-bounce">
             Press Space to Start
           </p>
-          <p className="text-sm mt-4">High Score: {highScore / 2}</p>
+          <p className="text-sm mt-4">High Score: {highScore}</p>
         </div>
       )}
       <Bird y={birdY} />
       <Pipes pipes={pipes} difficulty={difficulty} />
-      {gameState === "playing" && <ScoreDisplay score={score / 2} />}
+      {gameState === "playing" && <ScoreDisplay score={score} />}
       {gameState === "gameover" && (
         <GameOverScreen
-          score={score / 2}
-          highScore={highScore / 2}
+          score={score}
+          highScore={highScore}
           onRestart={restartGame}
         />
       )}
