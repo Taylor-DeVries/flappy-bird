@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# 🐤 Flappy Pal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A cute, pastel-themed Flappy Bird–style web game built with **React**, **TypeScript**, and **Tailwind CSS**. Tap or press space to flap your way through pink pixel pipes and beat your high score!
 
-## Available Scripts
+Try it out here: https://flappy-pal.vercel.app/
 
-In the project directory, you can run:
+![image](https://github.com/user-attachments/assets/8365218c-7c08-4c45-bbdf-a5704f1385db)
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Pixelated pastel art style inspired by Stardew Valley
+- Responsive gameplay – works on desktop and mobile!
+- Cute pink bird with smooth jump animation
+- Dynamic pipe generation and score tracking
+- Persistent high score using local storage
+- Keyboard + Touch controls
+- Settings modal to change game difficulty & volume
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🕹️ Controls
 
-### `npm test`
+| Action      | Desktop        | Mobile    |
+|-------------|----------------|-----------|
+| Flap        | Spacebar       | Tap       |
+| Restart     | Button         | Button    |
+| Settings    | Esc or button  | Esc or button |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Gallery 
 
-### `npm run build`
+![image](https://github.com/user-attachments/assets/0bc764e3-5b80-4953-98b9-1a332a1f3a06)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/user-attachments/assets/c1d2ffa7-0f4c-4214-8069-03aa5c66e3c6)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/user-attachments/assets/329f1bde-1110-4d3b-abd9-a99569e39782)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
